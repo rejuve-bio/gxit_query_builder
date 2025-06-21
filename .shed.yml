@@ -1,0 +1,7 @@
+name: rejuve_visual_query_builder
+description: "Galaxy wrappers for Rejuve's Visual query builder for Humnan BioAtomspace"
+owner: tibebe
+long_description: >
+  Galaxy wrapper for Rejuve's Visual query builder for Humnan BioAtomspace
+categories:
+  - Visualization
