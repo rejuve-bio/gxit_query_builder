@@ -1,0 +1,22 @@
+<tool id="gxit_query_builder" tool_type="interactive" name="Rejuve Annotaiton Query builder" version="0.1">
+    <description>Rejuve Annotaiton Query builder</description>
+    <requirements>
+        <container type="docker">tibex/gxit-query-builder:latest</container>
+    </requirements>
+    <entry_points>
+        <entry_point name="Rejuve Annotaiton Query builder"  label="Rejuve Annotaiton Query builder" requires_domain="False" requires_path_in_url="True">
+            <port>4173</port>
+            <url>/</url>
+        </entry_point>
+    </entry_points>
+    <command><![CDATA[
+    sh /startup.sh;
+    ]]>
+    </command>
+
+    <inputs>
+    </inputs>
+
+    <tests></tests>
+    <help>This tool launches an interactive query builder UI.</help>
+</tool>
