@@ -1,7 +1,6 @@
 name: rejuve_visual_query_builder
-description: "Galaxy wrappers for Rejuve's Visual query builder for Humnan BioAtomspace"
+description: Galaxy wrappers for Rejuve.bio's Visual Query Builder for Knowledge Graphs
 owner: tibebe
-long_description: >
-  Galaxy wrapper for Rejuve's Visual query builder for Humnan BioAtomspace
+long_description: This tool is a graphical graph query template builder that let's the user generate graph pattern matching queries, search through knowledge graphs via api, and visualize the matching subgraphs.  Results can be downloaded in json format.
 categories:
   - Visualization

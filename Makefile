@@ -14,7 +14,7 @@ upload-test:
 	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(TEST_SHED)
 
 update-test:
-	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(TEST_SHED)
+	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(TEST_SHED)
 
 create-shed:
 	-@bash $(GALAXY_ROOT)/create_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
@@ -24,4 +24,4 @@ upload-shed:
 	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
 
 update-shed:
-	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
+	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
