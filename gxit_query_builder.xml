@@ -1,4 +1,4 @@
-<tool id="gxit_query_builder" tool_type="interactive" name="Rejuve Annotaiton Query builder" version="0.3.0">
+<tool id="gxit_query_builder" tool_type="interactive" name="Rejuve Annotaiton Query builder" version="0.3.0+galaxy0">
     <description>Rejuve Annotaiton Query builder</description>
     <requirements>
         <container type="docker">tibex/gxit-query-builder:latest</container>
@@ -18,5 +18,11 @@
     </inputs>
 
     <tests></tests>
-    <help>This tool launches an interactive query builder UI.</help>
+    <help>
+    This tool launches an interactive query builder UI.
+    
+    Feedback
+        We value your input! Please submit feedback using the form below:
+        https://forms.gle/XnQMJM5EzBJs8uJx5
+    </help>
 </tool>
